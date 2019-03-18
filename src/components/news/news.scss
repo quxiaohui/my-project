@@ -1,0 +1,58 @@
+.slide {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #000;
+  overflow: hidden;
+  position: relative;
+  .slide-ul {
+    width:1800px;
+    list-style: none;
+    height: 150px;
+    position: relative;
+    left: 0;
+    transition: left 2s;
+    li {
+      width: 300px;
+      height: 150px;
+      float: left;
+    }
+  }
+  .slide-btn-pre {
+    position: absolute;
+    top: 63px;
+    z-index: 100;
+    color: #f00;
+  }
+  .slide-btn-next {
+    position: absolute;
+    top: 63px;
+    right: 0;
+    z-index: 100;
+    color: #f00;
+  }
+}
+
+.img {
+  width: 300px;
+  height: 150px;
+}
+
+.point {
+  position: absolute;
+  left: 80px;
+  top: 350px;
+}
+
+.point-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  float: left;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.focus {
+  background-color: plum;;
+}

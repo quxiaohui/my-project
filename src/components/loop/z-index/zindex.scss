@@ -1,0 +1,67 @@
+img {
+  width: 600px;
+  height: 300px;
+  display: block;
+}
+
+.swiper {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  cursor: pointer; 
+}
+
+.swiper-list {
+  position: relative;
+  width: 600px;
+}
+
+.swiper-list li {
+  position: absolute;
+  opacity: 0;
+  transition: opacity .8s
+}
+
+.swiper-list li.swiper-img {
+  z-index: 1;
+  opacity: 1;
+}
+
+.swiper-btn-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  transform: translateY(-50%);
+  color: red;
+}
+
+.swiper-btn-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 10;
+  transform: translateY(-50%);
+  color: red;
+}
+
+.swiper .points {
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  z-index: 100;
+  transform: translateX(-50%);
+}
+
+.swiper .points div {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  float: left;
+}
+
+.swiper .points div.focus {
+  background-color: aquamarine;
+}

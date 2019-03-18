@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  line-height: 50px;
+  list-style: none;
+  position: fixed;
+  background-color: antiquewhite;
+  bottom: 0;
+  div {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  .active {
+    color: red;
+  }
+}
